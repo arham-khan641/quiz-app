@@ -1,0 +1,61 @@
+#submit{
+    margin:  0 0 0 100px;
+    background-color: #999b9b;
+}
+#container{
+
+    width: 1200px;
+    height: 580px;
+    background-image:url(bgImg.jpg);
+    margin:20px auto;
+    padding-top: 20px;
+}
+#quiz-app{
+    position: relative;
+    width: 320px;
+    height: 520px;
+    background-color: #ffffff;  
+    margin: 0 auto;
+    opacity:0.6;   
+    border-radius: 15px;
+    box-shadow:0 4px 8px 0 rgba(26, 25, 25, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+     padding: 35px 0 0 10px;
+     font-size: 1.5em; 
+    
+
+}
+#Email{
+    margin: 0 0 0 43px;
+    
+}
+
+
+#Age{
+    margin: 0 0 0 58px;
+
+}
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-image: url('quiz-app-img.jpg');
+    
+     width: 100%;
+    height: auto;
+   
+}
+
+@media only screen and (max-width:425px){
+#quiz-app{
+    float:left;
+    }
+}
+@media only screen and (max-width:425px){
+    #container{
+        width: 500px;
+        height: 520px;
+        
+    }
+}
+
